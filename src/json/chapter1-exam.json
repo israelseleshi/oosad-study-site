@@ -1,0 +1,970 @@
+{
+  "exam": {
+    "title": "Object-Oriented System Analysis and Design (OOSAD) INSY3063 - Practice Exam",
+    "instructions": "This practice exam evaluates your understanding of Object-Oriented System Analysis and Design (OOSAD) concepts, including systems thinking, software development methodologies, object-oriented principles, and the Unified Modeling Language (UML). Answer all questions based solely on the provided source material. Answers are included at the end for self-assessment.",
+    "sections": [
+      {
+        "title": "Multiple Choice Questions",
+        "count": 25,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Which statement best captures the essence of systems thinking and its role in addressing complexity and problem-solving?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Systems thinking focuses on isolating complex problems into manageable sub-problems without considering interdependencies."
+              },
+              {
+                "letter": "B",
+                "text": "Systems thinking provides a holistic framework to investigate factors and interactions contributing to outcomes, emphasizing relationships among information systems, organizations, and their environment."
+              },
+              {
+                "letter": "C",
+                "text": "Systems thinking is an optional tool for answering questions about purpose and assembly, primarily used for individual task management."
+              },
+              {
+                "letter": "D",
+                "text": "Systems thinking emphasizes linear cause-and-effect chains to predict specific outcomes from single inputs."
+              },
+              {
+                "letter": "E",
+                "text": "Systems thinking is limited to understanding team dynamics and does not extend to creating optimal processes."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "What combination of factors is cited as the primary cause of the software crisis described in the sources?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Lack of skilled programmers and insufficient hardware resources."
+              },
+              {
+                "letter": "B",
+                "text": "Communication difficulties and the management of complexity."
+              },
+              {
+                "letter": "C",
+                "text": "High development costs and inability to meet deadlines."
+              },
+              {
+                "letter": "D",
+                "text": "Over-reliance on structured programming and neglecting testing phases."
+              },
+              {
+                "letter": "E",
+                "text": "Inadequate user training and poor system documentation."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "What best describes the concept of Relative Primitives in complex systems?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Primitive components are fixed and universally defined for any complex system, regardless of the observer."
+              },
+              {
+                "letter": "B",
+                "text": "The choice of primitive components is subjective, varying based on the observer’s level of abstraction and discretion."
+              },
+              {
+                "letter": "C",
+                "text": "Relative Primitives are the simplest, reusable units of code across different system parts."
+              },
+              {
+                "letter": "D",
+                "text": "Complex systems lack primitive components due to their interconnected nature."
+              },
+              {
+                "letter": "E",
+                "text": "Relative Primitives are components that directly interface with the system’s environment."
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "How do Structured Analysis and Design (SAD) and Object-Oriented Analysis (OOA) differ in their primary focus and approach?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "SAD focuses on data structures and real-world objects using a bottom-up approach, while OOA focuses on processes using a top-down approach."
+              },
+              {
+                "letter": "B",
+                "text": "SAD focuses on processes using a top-down approach and models data separately, while OOA focuses on objects using a bottom-up approach, integrating data and functionality."
+              },
+              {
+                "letter": "C",
+                "text": "SAD and OOA both focus equally on processes and objects, but SAD uses graphical tools, whereas OOA does not."
+              },
+              {
+                "letter": "D",
+                "text": "SAD is suitable for large projects with changing requirements due to its flexibility, while OOA is suited for small, well-defined projects."
+              },
+              {
+                "letter": "E",
+                "text": "SAD emphasizes object-oriented design patterns and reusable components, whereas OOA emphasizes functional decomposition."
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Which of the following is NOT listed as a common characteristic of complex systems in the sources?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Hierarchic Structure"
+              },
+              {
+                "letter": "B",
+                "text": "Relative Primitives"
+              },
+              {
+                "letter": "C",
+                "text": "Complete Decomposability"
+              },
+              {
+                "letter": "D",
+                "text": "Common Patterns"
+              },
+              {
+                "letter": "E",
+                "text": "Stable Intermediate Forms"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Which three of the four elements listed in the sources contribute to the inherent complexity of industrial-strength software?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "The complexity of the hardware, the difficulty of managing the development process, the flexibility possible through software."
+              },
+              {
+                "letter": "B",
+                "text": "The difficulty of managing user expectations, the flexibility possible through software, the problems of characterizing the behavior of discrete systems."
+              },
+              {
+                "letter": "C",
+                "text": "The complexity of the problem domain, the difficulty of managing the development process, the problems of characterizing the behavior of discrete systems."
+              },
+              {
+                "letter": "D",
+                "text": "The complexity of the problem domain, the availability of development tools, the flexibility possible through software."
+              },
+              {
+                "letter": "E",
+                "text": "The difficulty of finding skilled analysts, the problems of characterizing the behavior of discrete systems, the complexity of the problem domain."
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "Using the car analogy, what concept is illustrated by the steering wheel, gas pedal, and brake pedal hiding their underlying complex mechanisms?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Inheritance"
+              },
+              {
+                "letter": "B",
+                "text": "Polymorphism"
+              },
+              {
+                "letter": "C",
+                "text": "Instantiation"
+              },
+              {
+                "letter": "D",
+                "text": "Encapsulation (Information Hiding)"
+              },
+              {
+                "letter": "E",
+                "text": "Method Calls"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "What is the primary motivation for adopting an object-oriented approach to analysis and design?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "The need to use graphical modeling languages like UML."
+              },
+              {
+                "letter": "B",
+                "text": "The challenge of managing the complexity of both requirements and the resulting product."
+              },
+              {
+                "letter": "C",
+                "text": "To facilitate code reuse through inheritance and polymorphism."
+              },
+              {
+                "letter": "D",
+                "text": "To improve stakeholder communication through visual models."
+              },
+              {
+                "letter": "E",
+                "text": "To ensure a strictly top-down development process."
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Which statement about the Unified Modeling Language (UML) is incorrect based on the sources?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "UML is a product that can be purchased and installed."
+              },
+              {
+                "letter": "B",
+                "text": "UML is a notational system designed to represent object-oriented concepts."
+              },
+              {
+                "letter": "C",
+                "text": "UML provides basic elements for building object-oriented models."
+              },
+              {
+                "letter": "D",
+                "text": "UML supports multiple views of the same system with varying detail."
+              },
+              {
+                "letter": "E",
+                "text": "UML models can be mapped to object-oriented programming languages."
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "What distinguishes industrial-strength software as particularly challenging to develop?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "It is built by amateur programmers with limited experience."
+              },
+              {
+                "letter": "B",
+                "text": "It has a limited purpose and short lifespan."
+              },
+              {
+                "letter": "C",
+                "text": "Its complexity often exceeds human intellectual capacity, making it difficult for an individual developer to comprehend all design subtleties."
+              },
+              {
+                "letter": "D",
+                "text": "It consists of small-scale applications without complex behaviors."
+              },
+              {
+                "letter": "E",
+                "text": "It primarily deals with simple data structures and sequential processes."
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "What is the primary focus of object-oriented decomposition compared to algorithmic decomposition?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Breaking down the problem into major steps in an overall process."
+              },
+              {
+                "letter": "B",
+                "text": "Focusing on the processes involved in solving a problem."
+              },
+              {
+                "letter": "C",
+                "text": "Highlighting the ordering of events within the system."
+              },
+              {
+                "letter": "D",
+                "text": "Decomposing according to key abstractions (concepts) in the problem domain, focusing on objects and data."
+              },
+              {
+                "letter": "E",
+                "text": "Identifying procedures that transform data from one form to another."
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "How do Methodologies, Techniques, and Tools work together in the Software Development Process?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Methodologies define software requirements, Techniques implement code, and Tools manage project timelines."
+              },
+              {
+                "letter": "B",
+                "text": "Methodologies provide step-by-step approaches, Techniques ensure work is well thought out, and Tools are programs that facilitate specific techniques."
+              },
+              {
+                "letter": "C",
+                "text": "Methodologies are computer programs, Techniques are step-by-step approaches, and Tools ensure work quality."
+              },
+              {
+                "letter": "D",
+                "text": "Methodologies focus on testing, Techniques focus on design, and Tools focus on analysis."
+              },
+              {
+                "letter": "E",
+                "text": "Methodologies provide flexibility, Techniques provide structure, and Tools provide automation."
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "What is the primary characteristic of the Essential Model in Structured Analysis and Design?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "It defines how the system accomplishes its purpose by mapping functional requirements to hardware and software."
+              },
+              {
+                "letter": "B",
+                "text": "It combines the Environmental and Behavioral models, defining the system’s scope, boundary, external interactions, and internal behavior independent of implementation."
+              },
+              {
+                "letter": "C",
+                "text": "It focuses on non-functional requirements and the Human-Computer Interface."
+              },
+              {
+                "letter": "D",
+                "text": "It uses tools like Structure Charts to represent system architecture."
+              },
+              {
+                "letter": "E",
+                "text": "It models what the system should do, including implementation specifics."
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "What is the purpose of Instantiation in object technology?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "To define a class blueprint for objects."
+              },
+              {
+                "letter": "B",
+                "text": "To make a method call to an object to perform a task."
+              },
+              {
+                "letter": "C",
+                "text": "To program a new class by extending existing classes."
+              },
+              {
+                "letter": "D",
+                "text": "To construct an object of a class, allocating memory and identifying method code sections before method calls."
+              },
+              {
+                "letter": "E",
+                "text": "To hide an object’s instance variables and method statements."
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "What is a disadvantage of Structured Analysis and Design?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "It makes effective use of graphical tools."
+              },
+              {
+                "letter": "B",
+                "text": "It is simple and easy to understand and implement."
+              },
+              {
+                "letter": "C",
+                "text": "It has limited scalability and lacks object-oriented benefits, making it challenging for large, complex systems."
+              },
+              {
+                "letter": "D",
+                "text": "It is a mature technique."
+              },
+              {
+                "letter": "E",
+                "text": "It provides high reusability."
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "Which object-oriented concept is illustrated by a car blueprint being reused to build multiple cars?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Encapsulation"
+              },
+              {
+                "letter": "B",
+                "text": "Polymorphism"
+              },
+              {
+                "letter": "C",
+                "text": "Inheritance"
+              },
+              {
+                "letter": "D",
+                "text": "Reuse"
+              },
+              {
+                "letter": "E",
+                "text": "Instantiation"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "What does the Behavioral Model in Structured Analysis and Design describe?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "The scope of the system and its interaction with the outside world."
+              },
+              {
+                "letter": "B",
+                "text": "How the system accomplishes its purpose by mapping functional requirements to hardware."
+              },
+              {
+                "letter": "C",
+                "text": "The internal behavior and data entities, including functional requirements, using tools like DFDs, ERDs, and Data Dictionaries."
+              },
+              {
+                "letter": "D",
+                "text": "Non-functional requirements and the Human-Computer Interface."
+              },
+              {
+                "letter": "E",
+                "text": "Environmental factors initiating software development."
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "What is the role of Messages in object-oriented systems?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "They are specific function calls that execute a block of code directly."
+              },
+              {
+                "letter": "B",
+                "text": "They are responses from an object indicating operation results."
+              },
+              {
+                "letter": "C",
+                "text": "They define class hierarchy and inheritance relationships."
+              },
+              {
+                "letter": "D",
+                "text": "They are sent to objects to request operations via methods, allowing object-specific responses to the same message."
+              },
+              {
+                "letter": "E",
+                "text": "They represent data exchanged between different processes."
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "What does 'nearly decomposable' mean in the context of Hierarchic Structure in complex systems?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "The system cannot be divided into identifiable parts."
+              },
+              {
+                "letter": "B",
+                "text": "The parts are completely independent with no linkages."
+              },
+              {
+                "letter": "C",
+                "text": "The parts are divisible but not fully independent, with stronger intra-component linkages than inter-component linkages, enabling separation of concerns."
+              },
+              {
+                "letter": "D",
+                "text": "Decomposition is only possible to a certain abstraction level."
+              },
+              {
+                "letter": "E",
+                "text": "Decomposition is only needed during initial analysis, not design or implementation."
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "Which UML view represents 'what the owner (or business) wants' and is considered the conceptual view?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "The Architect’s View"
+              },
+              {
+                "letter": "B",
+                "text": "The Builder’s View"
+              },
+              {
+                "letter": "C",
+                "text": "The Developer’s View"
+              },
+              {
+                "letter": "D",
+                "text": "The Owner’s View"
+              },
+              {
+                "letter": "E",
+                "text": "The Analyst’s View"
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "text": "What best describes the relationship between Methodology and Method in information system development?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Methodology is the tactic, whereas Method defines the strategy."
+              },
+              {
+                "letter": "B",
+                "text": "Methodology defines the strategy by abstracting experience within a theoretical framework, whereas Method defines a tactic."
+              },
+              {
+                "letter": "C",
+                "text": "They are interchangeable terms for the same step-by-step process."
+              },
+              {
+                "letter": "D",
+                "text": "Methodologies are specific techniques, while Methods are general approaches."
+              },
+              {
+                "letter": "E",
+                "text": "Methodology applies only to analysis, while Method applies only to design."
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "Using the car analogy, what does the example of a speed limit applying to different vehicles (cars, trucks, motorcycles) illustrate about Polymorphism?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Different objects can respond to the same message (e.g., checking speed limit) in object-specific ways based on methods common to a general class (vehicle)."
+              },
+              {
+                "letter": "B",
+                "text": "Objects inherit properties and methods from a superclass."
+              },
+              {
+                "letter": "C",
+                "text": "Objects encapsulate their internal data and procedures."
+              },
+              {
+                "letter": "D",
+                "text": "Objects are instances of a class blueprint."
+              },
+              {
+                "letter": "E",
+                "text": "Objects can be reused in different combinations."
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "What is a Software Process Pattern?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "A UML diagram type for modeling system behavior."
+              },
+              {
+                "letter": "B",
+                "text": "An abstraction of a small group of classes useful repeatedly in object-oriented development, representing a solution to a recurring problem."
+              },
+              {
+                "letter": "C",
+                "text": "A fixed, step-by-step methodology for developing industrial-strength software."
+              },
+              {
+                "letter": "D",
+                "text": "A tool for forward or backward engineering code from UML models."
+              },
+              {
+                "letter": "E",
+                "text": "A description of how objects interact to achieve high-level behavior."
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "What does the Implementation and Testing Phase in the Object-Oriented development life cycle primarily involve?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Formulating the problem and identifying user requirements to build a model."
+              },
+              {
+                "letter": "B",
+                "text": "Refining the analysis model to the environment and focusing on system architecture."
+              },
+              {
+                "letter": "C",
+                "text": "Identifying required classes, establishing associations, and designing internal details."
+              },
+              {
+                "letter": "D",
+                "text": "Translating the design model into code, creating databases, determining hardware requirements, and testing to identify and remove errors."
+              },
+              {
+                "letter": "E",
+                "text": "Defining the Human-Computer Interface and non-functional requirements."
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "How does Object-Oriented Analysis (OOA) address the complexity of software compared to Structured Analysis?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "OOA is a mature technique with established graphical tools."
+              },
+              {
+                "letter": "B",
+                "text": "OOA follows a bottom-up approach, simplifying complex systems."
+              },
+              {
+                "letter": "C",
+                "text": "OOA is more scalable and enables better modeling of complex object relationships, making it suitable for large, complex systems."
+              },
+              {
+                "letter": "D",
+                "text": "OOA’s steep learning curve helps developers appreciate complexity."
+              },
+              {
+                "letter": "E",
+                "text": "OOA focuses on processes, simplifying the flow of complex systems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Fill-in-the-Blank Questions",
+        "count": 10,
+        "questions": [
+          {
+            "id": 1,
+            "text": "A __________ is an organized collection of highly integrated parts working together to achieve an overall goal, described as an __________ set of business procedures used within one business unit."
+          },
+          {
+            "id": 2,
+            "text": "__________ is the ability to view organizations and information systems holistically, described as a __________ way to investigate factors and interactions contributing to outcomes."
+          },
+          {
+            "id": 3,
+            "text": "__________ is the system concept of breaking a system into smaller subsystems or components."
+          },
+          {
+            "id": 4,
+            "text": "__________ measures the extent to which a subsystem performs a single function, ensuring separation of concerns."
+          },
+          {
+            "id": 5,
+            "text": "__________ applications exhibit rich behaviors and a long lifespan, with many users relying on their proper functioning."
+          },
+          {
+            "id": 6,
+            "text": "The inherent complexity of large software is an __________ property, meaning it cannot be avoided but can be mastered."
+          },
+          {
+            "id": 7,
+            "text": "In complex systems with __________, intra-component linkages are stronger than inter-component linkages, enabling separation of concerns."
+          },
+          {
+            "id": 8,
+            "text": "__________ decomposition focuses on processes, while __________ decomposition focuses on objects and data."
+          },
+          {
+            "id": 9,
+            "text": "In object technology, an __________ is a combination of data and logic representing a real-world entity."
+          },
+          {
+            "id": 10,
+            "text": "__________ allows a new class to extend existing classes, inheriting their variables and methods."
+          }
+        ]
+      },
+      {
+        "title": "True/False Questions",
+        "count": 10,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Software is defined as an interrelated set of business procedures used within one business unit.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 2,
+            "text": "Problem-solving is a key objective of system development.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 3,
+            "text": "Simple software systems typically have rich behaviors and a long lifespan.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 4,
+            "text": "The complexity of large software systems is an accidental property that can be avoided with proper tools.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 5,
+            "text": "The choice of primitive components in a complex system is objective and fixed, regardless of the observer.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 6,
+            "text": "Structured Analysis and Design follows a bottom-up approach to system development.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 7,
+            "text": "Object-Oriented Analysis (OOA) has a steep learning curve.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 8,
+            "text": "Objects are instances of a class within a class hierarchy.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 9,
+            "text": "Modeling is a separate activity performed only at the beginning of a project.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 10,
+            "text": "In object-oriented systems, messages are specific function calls identical for all objects.",
+            "options": ["True", "False"]
+          }
+        ]
+      },
+      {
+        "title": "Short Answer Questions",
+        "count": 5,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Explain the 'Software Failure Crisis,' including its primary causes and the definition of a software failure."
+          },
+          {
+            "id": 2,
+            "text": "Describe the five common characteristics of complex systems, providing a brief explanation for each."
+          },
+          {
+            "id": 3,
+            "text": "Compare and contrast Algorithmic Decomposition and Object-Oriented Decomposition, focusing on their approaches to problem breakdown."
+          },
+          {
+            "id": 4,
+            "text": "Explain the differences between the Essential Model and Implementation Model in Structured Analysis and Design, including their purposes and associated tools."
+          },
+          {
+            "id": 5,
+            "text": "Describe the object-oriented concepts of Encapsulation and Inheritance, using the car analogy to illustrate where applicable."
+          }
+        ]
+      },
+      {
+        "title": "Matching Questions",
+        "count": 10,
+        "instructions": "Match each term in List A with its corresponding description in List B. Each description is used only once.",
+        "lists": {
+          "listA": [
+            {
+              "id": 1,
+              "text": "System"
+            },
+            {
+              "id": 2,
+              "text": "Systems Thinking"
+            },
+            {
+              "id": 3,
+              "text": "Decomposition"
+            },
+            {
+              "id": 4,
+              "text": "Modularity"
+            },
+            {
+              "id": 5,
+              "text": "Coupling"
+            },
+            {
+              "id": 6,
+              "text": "Cohesion"
+            },
+            {
+              "id": 7,
+              "text": "Object"
+            },
+            {
+              "id": 8,
+              "text": "Class"
+            },
+            {
+              "id": 9,
+              "text": "Encapsulation"
+            },
+            {
+              "id": 10,
+              "text": "Polymorphism"
+            }
+          ],
+          "listB": [
+            {
+              "id": "A",
+              "text": "The principle of concealing an object’s internal data and procedures, providing an interface with minimal exposure, as seen in a car’s hidden engine."
+            },
+            {
+              "id": "B",
+              "text": "An organized collection of integrated parts or an interrelated set of business procedures working together to achieve a purpose."
+            },
+            {
+              "id": "C",
+              "text": "The ability of different objects to respond to the same method in object-specific ways, like vehicles adhering to a speed limit."
+            },
+            {
+              "id": "D",
+              "text": "A holistic framework for understanding relationships and interactions in organizations and information systems."
+            },
+            {
+              "id": "E",
+              "text": "The process of breaking a system into smaller subsystems or components."
+            },
+            {
+              "id": "F",
+              "text": "The division of a system into relatively uniform modules resulting from decomposition."
+            },
+            {
+              "id": "G",
+              "text": "A combination of data and logic representing a real-world entity with attributes and behaviors."
+            },
+            {
+              "id": "H",
+              "text": "The extent to which a subsystem performs a single function, ensuring separation of concerns."
+            },
+            {
+              "id": "I",
+              "text": "The degree of interdependence between subsystems, ideally minimized for independence."
+            },
+            {
+              "id": "J",
+              "text": "The blueprint for objects, defining structure, behavior, and inheritance as a classification mechanism."
+            }
+          ]
+        }
+      }
+    ],
+    "answers": {
+      "multipleChoice": [
+        {"id": 1, "answer": "B"},
+        {"id": 2, "answer": "B"},
+        {"id": 3, "answer": "B"},
+        {"id": 4, "answer": "B"},
+        {"id": 5, "answer": "C"},
+        {"id": 6, "answer": "C"},
+        {"id": 7, "answer": "D"},
+        {"id": 8, "answer": "B"},
+        {"id": 9, "answer": "A"},
+        {"id": 10, "answer": "C"},
+        {"id": 11, "answer": "D"},
+        {"id": 12, "answer": "B"},
+        {"id": 13, "answer": "B"},
+        {"id": 14, "answer": "D"},
+        {"id": 15, "answer": "C"},
+        {"id": 16, "answer": "D"},
+        {"id": 17, "answer": "C"},
+        {"id": 18, "answer": "D"},
+        {"id": 19, "answer": "C"},
+        {"id": 20, "answer": "D"},
+        {"id": 21, "answer": "B"},
+        {"id": 22, "answer": "A"},
+        {"id": 23, "answer": "B"},
+        {"id": 24, "answer": "D"},
+        {"id": 25, "answer": "C"}
+      ],
+      "fillInTheBlank": [
+        {"id": 1, "answer": "System, interrelated"},
+        {"id": 2, "answer": "Systems thinking, holistic"},
+        {"id": 3, "answer": "Decomposition"},
+        {"id": 4, "answer": "Cohesion"},
+        {"id": 5, "answer": "Industrial-strength software"},
+        {"id": 6, "answer": "essential"},
+        {"id": 7, "answer": "Hierarchic Structure"},
+        {"id": 8, "answer": "Algorithmic, object-oriented"},
+        {"id": 9, "answer": "Object"},
+        {"id": 10, "answer": "Inheritance"}
+      ],
+      "trueFalse": [
+        {"id": 1, "answer": "False"},
+        {"id": 2, "answer": "True"},
+        {"id": 3, "answer": "False"},
+        {"id": 4, "answer": "False"},
+        {"id": 5, "answer": "False"},
+        {"id": 6, "answer": "False"},
+        {"id": 7, "answer": "True"},
+        {"id": 8, "answer": "True"},
+        {"id": 9, "answer": "False"},
+        {"id": 10, "answer": "False"}
+      ],
+      "shortAnswer": [
+        {
+          "id": 1,
+          "answer": "The Software Failure Crisis arose due to communication difficulties and challenges in managing complexity, leading to frequent project failures. Poor or nonexistent stakeholder communication was a key factor. A software failure occurs when software does not deliver expected results per specifications, with severity ranging from minor to catastrophic based on system impact."
+        },
+        {
+          "id": 2,
+          "answer": "Complex system characteristics: (1) Hierarchic Structure: Systems form hierarchies of subsystems, defined by component relationships. (2) Relative Primitives: Primitive components are subjectively chosen based on abstraction level. (3) Separation of Concerns: Nearly decomposable parts have stronger intra-component than inter-component linkages. (4) Common Patterns: Systems reuse a few subsystem types in various arrangements. (5) Stable Intermediate Forms: Systems evolve from simpler, stable forms into more complex structures."
+        },
+        {
+          "id": 3,
+          "answer": "Algorithmic Decomposition breaks problems into process steps, using a top-down approach to outline major process modules and event sequences. Object-Oriented Decomposition focuses on objects and data, identifying key domain abstractions bottom-up, emphasizing agents (objects) with integrated data and functionality."
+        },
+        {
+          "id": 4,
+          "answer": "The Essential Model defines what the system must do, combining the Environmental Model (scope, boundary, external interactions via Statement of Purpose, Context Diagram, Event List) and Behavioral Model (internal behavior, data entities via DFDs, ERDs, Data Dictionaries, Process Specifications, State Transition Diagrams). The Implementation Model details how the system achieves this, mapping requirements to hardware/software, defining interfaces and non-functional requirements, using tools like Structure Charts."
+        },
+        {
+          "id": 5,
+          "answer": "Encapsulation hides an object’s internal data and methods, exposing only a minimal interface, as in a car where the driver uses pedals without understanding engine mechanics. Inheritance allows a new class to extend an existing class, inheriting its properties and methods, like a convertible car blueprint extending a general car blueprint with added features."
+        }
+      ],
+      "matching": [
+        {"id": 1, "answer": "B"},
+        {"id": 2, "answer": "D"},
+        {"id": 3, "answer": "E"},
+        {"id": 4, "answer": "F"},
+        {"id": 5, "answer": "I"},
+        {"id": 6, "answer": "H"},
+        {"id": 7, "answer": "G"},
+        {"id": 8, "answer": "J"},
+        {"id": 9, "answer": "A"},
+        {"id": 10, "answer": "C"}
+      ]
+    }
+  }
+}

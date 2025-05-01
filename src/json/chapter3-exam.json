@@ -1,0 +1,870 @@
+{
+  "exam": {
+    "title": "Agile Development",
+    "instructions": "This exam covers Agile methodologies, Scrum, Large-Scale Scrum (LeSS), LeSS Huge, Agile documentation, and information gathering skills. Answer all questions carefully. Answers are provided at the end.",
+    "sections": [
+      {
+        "title": "Multiple Choice Questions",
+        "count": 25,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Which statement most accurately reflects the core distinction between Agile methodologies and other software development methodologies?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Agile methodologies prioritize rigorous upfront documentation and detailed planning over adaptive responses to change, whereas other methodologies are more flexible."
+              },
+              {
+                "letter": "B",
+                "text": "Agile methodologies are primarily concerned with object-oriented development, focusing on the product from conceptual to physical stages, while other methodologies lack this focus."
+              },
+              {
+                "letter": "C",
+                "text": "Agile methodologies are inherently \"adaptive\" rather than \"predictive,\" managing tasks and coordination through a specific set of values and principles, unlike methodologies that rely on extensive upfront design."
+              },
+              {
+                "letter": "D",
+                "text": "Agile methodologies strictly mandate the co-location of development teams, making them unsuitable for outsourced or offshored projects, a limitation not typically found in traditional approaches."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "The \"Agile Manifesto,\" created in Utah in February 2001, reached a consensus among proponents of alternative approaches. Which pair represents values emphasized in the Manifesto over traditional project elements?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Detailed systems development processes and customers."
+              },
+              {
+                "letter": "B",
+                "text": "Working software and all-inclusive documentation."
+              },
+              {
+                "letter": "C",
+                "text": "Legal contracts and addressing changing requirements."
+              },
+              {
+                "letter": "D",
+                "text": "The working conditions of the developers and detailed plans."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Simplicity in Agile is described as doing exemplary work, not less work. Which Agile practice directly encourages simplicity by guiding developers to write only the necessary code to pass tests and helps prevent over-engineering?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Continuous Refactoring, which involves restructuring code without changing external behavior to improve maintainability."
+              },
+              {
+                "letter": "B",
+                "text": "Iterative Development, which builds software incrementally in small, manageable chunks to deliver value more frequently."
+              },
+              {
+                "letter": "C",
+                "text": "Test-Driven Development (TDD), where tests are written before the code to focus on desired behavior."
+              },
+              {
+                "letter": "D",
+                "text": "Continuous Feedback, which identifies opportunities to simplify the product based on stakeholder input."
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Which type of agility is defined as an individual’s ability to learn quickly and adapt to new situations, involving openness to new experiences, seeking feedback, and continuously developing new skills and knowledge?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Operational Agility, focusing on responding to market changes and customer demands with efficient processes."
+              },
+              {
+                "letter": "B",
+                "text": "Strategic Agility, focusing on anticipating and responding to changes in the competitive landscape and long-term factors."
+              },
+              {
+                "letter": "C",
+                "text": "Learning Agility, important for companies needing to stay current with technology and industry trends."
+              },
+              {
+                "letter": "D",
+                "text": "Emotional Agility, focusing on regulating emotions and adapting to changing circumstances to build relationships."
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Which framework, introduced by Ken Schwaber and Jeff Sutherland in the mid-1990s, emphasizes iterative development with small, cross-functional teams working in short cycles called sprints to deliver potentially shippable increments of software, and incorporates specific roles, artifacts, and ceremonies?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Extreme Programming (XP), which emphasizes practices like test-driven development and pair programming."
+              },
+              {
+                "letter": "B",
+                "text": "Kanban, which emphasizes visualization and flow using a visual board."
+              },
+              {
+                "letter": "C",
+                "text": "Dynamic Systems Development Method (DSDM), which provides a comprehensive structure for swift software delivery based on principles."
+              },
+              {
+                "letter": "D",
+                "text": "Scrum, described as one of the earliest and most popular Agile frameworks."
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Which mistake in Professional Scrum is described as undermining autonomy, creativity, and trust—the cornerstones of Agile teams—by continuing to dictate solutions or enforce command-and-control structures?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Treating Agile as a Process, Not a Mindset, viewing it solely as processes rather than embracing underlying values."
+              },
+              {
+                "letter": "B",
+                "text": "Lack of Leadership Support and Engagement, where leaders do not champion Agile values or remove impediments."
+              },
+              {
+                "letter": "C",
+                "text": "Micromanagement and Lack of Trust, hindering innovation and agility by controlling teams too closely."
+              },
+              {
+                "letter": "D",
+                "text": "Ignoring Technical Excellence, leading to technical debt and reduced productivity by neglecting practices like test automation."
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "Crystal, a group of smaller agile development methodologies introduced by Alistair Cockburn, bases the choice of a specific method (Yellow, Clear, Red, Orange, etc.) on factors such as system criticality, team size, and project priorities. Which system criticality classification is NOT listed for choosing a Crystal method?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Comfort (C)"
+              },
+              {
+                "letter": "B",
+                "text": "Essential Money (E)"
+              },
+              {
+                "letter": "C",
+                "text": "Strategic Importance (S)"
+              },
+              {
+                "letter": "D",
+                "text": "Life (L)"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Large-Scale Scrum (LeSS) provides two frameworks. What is the maximum number of teams the standard LeSS framework is designed to support?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Up to eight teams (of eight people each)."
+              },
+              {
+                "letter": "B",
+                "text": "Up to a few thousand people on one product."
+              },
+              {
+                "letter": "C",
+                "text": "Up to 20 teams."
+              },
+              {
+                "letter": "D",
+                "text": "More than 8 teams but less than a few thousand."
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Which LeSS property promotes alignment, transparency, and shared understanding of priorities across the organization by having multiple Scrum teams working on the same product collaborate using a unified repository of features, enhancements, and technical items?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Feature Teams, where cross-functional teams deliver end-to-end features."
+              },
+              {
+                "letter": "B",
+                "text": "Simplicity, striving to keep the framework lightweight and focused on core Scrum principles."
+              },
+              {
+                "letter": "C",
+                "text": "One Product Backlog, managed and prioritized by the Product Owner."
+              },
+              {
+                "letter": "D",
+                "text": "Continuous Improvement, where teams reflect on practices and experiment with new approaches."
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "LeSS Huge is an adaptation of the LeSS framework for significantly larger organizations. What additional structural element is introduced in LeSS Huge to manage large product backlogs more effectively?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Multiple Product Owners, one for each Scrum Team."
+              },
+              {
+                "letter": "B",
+                "text": "Area Product Owners (APOs) managing Multiple Requirement Areas (MRAs)."
+              },
+              {
+                "letter": "C",
+                "text": "A Chief Product Owner overseeing several Product Owners."
+              },
+              {
+                "letter": "D",
+                "text": "Component Teams exclusively responsible for managing the large backlog."
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "Which statement most accurately reflects the Scrum Master’s focus and responsibilities in LeSS, distinguishing it from a single-team context?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "A Scrum Master in LeSS is a part-time role responsible for facilitating the daily stand-ups for multiple teams."
+              },
+              {
+                "letter": "B",
+                "text": "A Scrum Master in LeSS focuses solely on optimizing the performance of a single, dedicated team they serve."
+              },
+              {
+                "letter": "C",
+                "text": "A Scrum Master in LeSS is a dedicated full-time role focusing not just on one team but on the overall organizational system and the well-working LeSS adoption."
+              },
+              {
+                "letter": "D",
+                "text": "A Scrum Master in LeSS is primarily responsible for managing the Product Backlog and prioritizing items for the teams."
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "A key principle of LeSS is to be \"Scrum Scaled\" rather than using Scrum as a building block for a scaled framework. What does this approach entail for each Scrum element when applied in a LeSS context?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Each Scrum element is tailored down to fit the specific needs of individual larger teams."
+              },
+              {
+                "letter": "B",
+                "text": "LeSS looks at each Scrum element and asks \"Why is it there?\" followed by \"If we have more than one team, how can we achieve the same purpose on a larger scale?\""
+              },
+              {
+                "letter": "C",
+                "text": "Scrum elements are multiplied for each team, resulting in multiple Product Backlogs, Sprint Reviews, etc."
+              },
+              {
+                "letter": "D",
+                "text": "The core Scrum elements are replaced with entirely new practices designed specifically for large scale."
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "What is the primary purpose of the \"Increment\" step in the Scrum process?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "To plan the work for the upcoming sprint based on the product backlog."
+              },
+              {
+                "letter": "B",
+                "text": "To hold a meeting where the team identifies potential mistakes and issues from the past sprint."
+              },
+              {
+                "letter": "C",
+                "text": "To allow the stakeholders to receive a workable and usable output from the sprint."
+              },
+              {
+                "letter": "D",
+                "text": "To synchronize team members’ activities and report on bottlenecks during a daily meeting."
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "In LeSS Sprint execution, Sprint Planning consists of two parts. What is the primary activity during \"Sprint Planning Two,\" typically done separately by each team?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "The Product Owner and Team representatives together tentatively select items from the Product Backlog."
+              },
+              {
+                "letter": "B",
+                "text": "Teams decide how they will do the selected items, which usually involves design and the creation of their Sprint Backlogs."
+              },
+              {
+                "letter": "C",
+                "text": "All teams participate in a joint review of the product increment to gather feedback from stakeholders."
+              },
+              {
+                "letter": "D",
+                "text": "Team members synchronize their activities with each other and plan for the next 24 hours."
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "Professional Scrum, developed by Scrum.org, promotes \"Empirical Process Control\" as a key Agile principle to foster business agility. What does this principle primarily involve?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Focusing on delivering high-quality products faster and more efficiently to increase customer satisfaction."
+              },
+              {
+                "letter": "B",
+                "text": "Making decisions based on observation, experimentation, and evidence by regularly inspecting and adapting processes."
+              },
+              {
+                "letter": "C",
+                "text": "Forming self-organizing, cross-functional teams with all necessary skills to deliver product increments independently."
+              },
+              {
+                "letter": "D",
+                "text": "Emphasizing transparency, collaboration, and open communication within and across teams to leverage collective intelligence."
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "Agile documentation categorizes software documentation into Process and Product documentation. Which type focuses on the developed software product itself, offering descriptions, information, and instructions on how to perform tasks with the product?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Process documentation, which records development cycle progress, project tracking, plans, and reports."
+              },
+              {
+                "letter": "B",
+                "text": "Product documentation, which includes User documentation and System documentation."
+              },
+              {
+                "letter": "C",
+                "text": "Agile documentation, which should be sufficiently accurate, consistent, and detailed but not necessarily perfect."
+              },
+              {
+                "letter": "D",
+                "text": "System documentation, which is a subcategory of Process documentation."
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "A major criticism of Agile methodologies relates to distributed teams. What is the core concern regarding Agile’s requirement for co-location in today’s business environment where much development is offshored, outsourced, or subcontracted?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "That the emphasis on face-to-face communication becomes impossible with distributed teams."
+              },
+              {
+                "letter": "B",
+                "text": "That the lack of upfront documentation makes coordinating distributed teams unmanageable."
+              },
+              {
+                "letter": "C",
+                "text": "That the requirement for co-location makes the assumption of teams being physically together seem unrealistic in many modern scenarios."
+              },
+              {
+                "letter": "D",
+                "text": "That agile approaches cannot deliver large mission-critical systems effectively with distributed teams."
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "Which advantage of Agility is linked to delivering high-quality products or services faster and more efficiently?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Increased Innovation, fostered by a culture of experimentation and continuous improvement."
+              },
+              {
+                "letter": "B",
+                "text": "Reduced Costs, associated with delays, rework, and wasted effort."
+              },
+              {
+                "letter": "C",
+                "text": "Competitive Advantage, by being more responsive to changing market conditions."
+              },
+              {
+                "letter": "D",
+                "text": "Increased Customer Satisfaction, resulting from faster, more efficient, high-quality delivery."
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "Observation is a fundamental information gathering skill in Agile. What is a primary benefit of observation compared to other techniques like interviews?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "It allows for the gathering of secondhand information from multiple stakeholders simultaneously."
+              },
+              {
+                "letter": "B",
+                "text": "It provides firsthand, real-time insights into user behaviors, preferences, and challenges, helping identify usability issues and uncover hidden needs."
+              },
+              {
+                "letter": "C",
+                "text": "It is the most flexible and direct tool for eliciting requirements, though prone to misunderstanding."
+              },
+              {
+                "letter": "D",
+                "text": "It fosters creativity and generates a wide range of ideas or solutions through uninhibited contributions."
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "Brainstorming is an information gathering skill where the basic rule is that no one can comment on or belittle another member’s suggestion. Much of its value comes from separating the suggestion of solutions from the discussion of their value. Which is a major benefit of brainstorming?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "It ensures that the scope of solutions remains focused on the narrow interests of individual groups."
+              },
+              {
+                "letter": "B",
+                "text": "It helps manage tasks and coordination through a set of values and principles."
+              },
+              {
+                "letter": "C",
+                "text": "Full solutions can emerge from the accumulation of ideas, with one participant building upon another’s proposal or streamlining it."
+              },
+              {
+                "letter": "D",
+                "text": "It directly leads to the accomplishment of most problem-solving or planning tasks without further effort."
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "text": "In LeSS Huge, the concept of a single Product Backlog is maintained, but it may be partitioned for management. How are these partitions referred to in the LeSS Huge framework rules?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Product Area Divisions (PADs)"
+              },
+              {
+                "letter": "B",
+                "text": "Segmented Product Backlogs (SPBs)"
+              },
+              {
+                "letter": "C",
+                "text": "Multiple Requirement Areas (MRAs)"
+              },
+              {
+                "letter": "D",
+                "text": "Feature Groupings (FGs)"
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "Scrum of Scrums (SoS) meetings are a coordination mechanism in large-scale Agile implementations. Who typically attends these meetings?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "All team members from all teams working on the product."
+              },
+              {
+                "letter": "B",
+                "text": "Only the Scrum Masters from each team."
+              },
+              {
+                "letter": "C",
+                "text": "Representatives from each Scrum team working on the same product or project, often the Scrum Master or a designated team representative."
+              },
+              {
+                "letter": "D",
+                "text": "Project managers and senior stakeholders to receive status updates."
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "A key criticism of Agile is the potential for the development process to devolve if not carefully managed. What specific negative scenario is described, associated with a \"programmers gone wild\" environment?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Excessive upfront documentation and planning that delays delivery."
+              },
+              {
+                "letter": "B",
+                "text": "Teams rigidly adhering to processes and resisting necessary changes."
+              },
+              {
+                "letter": "C",
+                "text": "Programmers attempting to hack together solutions without proper structure or auditability."
+              },
+              {
+                "letter": "D",
+                "text": "Stakeholders losing confidence due to a lack of formal contracts and detailed plans."
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "Object-oriented development, out of which agile methodologies emerged, requires three elements. Which is NOT one of these requirements?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "An object-oriented technology."
+              },
+              {
+                "letter": "B",
+                "text": "An object-oriented analysis and design."
+              },
+              {
+                "letter": "C",
+                "text": "A project plan that mandates sequential phase completion."
+              },
+              {
+                "letter": "D",
+                "text": "A project plan that is friendly to an object-oriented approach."
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "In LeSS, unlike single-team Scrum, the Scrum Master’s focus shifts. What is a key aspect of the LeSS Scrum Master’s focus that extends beyond just one team?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Managing dependencies between components owned by different teams."
+              },
+              {
+                "letter": "B",
+                "text": "Ensuring that all teams report their progress directly to the Product Owner daily."
+              },
+              {
+                "letter": "C",
+                "text": "Focusing on the overall organizational system and a well-working LeSS adoption."
+              },
+              {
+                "letter": "D",
+                "text": "Conducting joint Sprint Planning Part One for all teams."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Fill-in-the-Blank Questions",
+        "count": 10,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Object-oriented development is described as highly __________."
+          },
+          {
+            "id": 2,
+            "text": "The agile method is an iterative and incremental tactic for software design that utilizes constant planning, understanding, upgrading, team partnership, __________, and delivery."
+          },
+          {
+            "id": 3,
+            "text": "Generally, Agile methodologies consider \"upfront\" documentation, modeling, and design as a __________ of time."
+          },
+          {
+            "id": 4,
+            "text": "The primary measure of progress in Agile is __________ software."
+          },
+          {
+            "id": 5,
+            "text": "__________ is an individual’s ability to regulate their emotions and adapt to changing circumstances."
+          },
+          {
+            "id": 6,
+            "text": "The pivotal moment in the formalization of Agile methodologies was the drafting of the Manifesto for Agile Software Development in __________."
+          },
+          {
+            "id": 7,
+            "text": "Scrum Teams usually consist of __________ to __________ members."
+          },
+          {
+            "id": 8,
+            "text": "In LeSS, Product Backlog __________ is preferably done with multiple teams to increase shared learning and coordination opportunities."
+          },
+          {
+            "id": 9,
+            "text": "LeSS Huge is designed for organizations with __________ or even thousands of people working on a single product."
+          },
+          {
+            "id": 10,
+            "text": "Data __________ is a process of preparing for and then collecting data needed to facilitate project decision making."
+          }
+        ]
+      },
+      {
+        "title": "True/False Questions",
+        "count": 10,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Object-oriented development is directly concerned with the organization of the project rather than the product itself.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 2,
+            "text": "Agile software development is a lightweight approach intended to overcome limitations of other development methods.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 3,
+            "text": "One Agile principle is that contracts should be strictly negotiated upfront rather than collaborating with customers throughout the project.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 4,
+            "text": "Face-to-face communication within the development team is considered the least efficient method of gathering requirements in Agile.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 5,
+            "text": "Lean manufacturing principles, emphasizing eliminating waste and optimizing value delivery, influenced the evolution of Agile methodologies.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 6,
+            "text": "Scrum breaks down the development phases into stages or cycles called 'iterations'.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 7,
+            "text": "In LeSS, each team has their own separate Product Backlog which they manage autonomously.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 8,
+            "text": "In LeSS, managers are optional, and if they exist, their role likely shifts from day-to-day work management to improving the product development system.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 9,
+            "text": "Scrum of Scrums meetings are typically held only once per sprint, at the very beginning, to align goals.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 10,
+            "text": "In Agile documentation, the writer determines whether documentation is sufficient based on internal team standards.",
+            "options": ["True", "False"]
+          }
+        ]
+      },
+      {
+        "title": "Short Answer Questions",
+        "count": 5,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Beyond the basic definition of the agile method, explain the three core requirements for object-oriented development, out of which agile methodologies emerged."
+          },
+          {
+            "id": 2,
+            "text": "List and briefly explain any three of the twelve principles of agile software development, focusing on their implications for the development process or team interaction."
+          },
+          {
+            "id": 3,
+            "text": "What are the four core values Extreme Programming (XP) is founded on, and how does XP encourage developers to accept changes in customer demands, even late in the process?"
+          },
+          {
+            "id": 4,
+            "text": "Describe the purpose and typical composition of a Scrum of Scrums (SoS) meeting in large-scale Agile implementations."
+          },
+          {
+            "id": 5,
+            "text": "Explain at least three critical points about Agile Documentation, addressing topics such as communication, necessity, or decision-making authority."
+          }
+        ]
+      },
+      {
+        "title": "Matching Questions",
+        "count": 10,
+        "instructions": "Match each term or concept from List A with its most fitting description or characteristic from List B.",
+        "lists": {
+          "listA": [
+            {
+              "id": 1,
+              "text": "Kanban"
+            },
+            {
+              "id": 2,
+              "text": "Product Owner"
+            },
+            {
+              "id": 3,
+              "text": "Definition of Done (DoD)"
+            },
+            {
+              "id": 4,
+              "text": "Sprint Retrospective"
+            },
+            {
+              "id": 5,
+              "text": "Feature-Driven Development (FDD)"
+            },
+            {
+              "id": 6,
+              "text": "Systems Thinking"
+            },
+            {
+              "id": 7,
+              "text": "Brainstorming"
+            },
+            {
+              "id": 8,
+              "text": "Iterative Development"
+            },
+            {
+              "id": 9,
+              "text": "LeSS Huge"
+            },
+            {
+              "id": 10,
+              "text": "Agile Manifesto"
+            }
+          ],
+          "listB": [
+            {
+              "id": "A",
+              "text": "A document outlining core values and principles of Agile software development, drafted in 2001."
+            },
+            {
+              "id": "B",
+              "text": "An information gathering skill that separates the suggestion of solutions from the discussion of their value, with a rule of not belittling suggestions."
+            },
+            {
+              "id": "C",
+              "text": "An iterative, customer-centric, and incremental agile method with a five-step process to produce working software timely."
+            },
+            {
+              "id": "D",
+              "text": "A meeting held after the Sprint Review where the team identifies mistakes, issues, and ways to handle them, incorporating data into the next sprint."
+            },
+            {
+              "id": "E",
+              "text": "The individual who acts as the liaison between customers and the development team, ensuring product expectations are communicated."
+            },
+            {
+              "id": "F",
+              "text": "A set of criteria that must be met for a product increment to be considered complete and potentially shippable, ideally common for all teams in LeSS."
+            },
+            {
+              "id": "G",
+              "text": "A visual method for managing projects, originating from a Japanese term meaning \"visual board,\" using columns to depict process flow."
+            },
+            {
+              "id": "H",
+              "text": "Building software incrementally in small, manageable chunks called iterations or sprints, each delivering a working subset of functionality."
+            },
+            {
+              "id": "I",
+              "text": "Encourages a holistic view of the system, considering interactions and dependencies to optimize performance."
+            },
+            {
+              "id": "J",
+              "text": "An adaptation of a scaled Scrum framework for organizations with hundreds or thousands of people on a single product, introducing Multiple Requirement Areas."
+            }
+          ]
+        }
+      }
+    ],
+    "answers": {
+      "multipleChoice": [
+        {"id": 1, "answer": "C"},
+        {"id": 2, "answer": "B"},
+        {"id": 3, "answer": "C"},
+        {"id": 4, "answer": "C"},
+        {"id": 5, "answer": "D"},
+        {"id": 6, "answer": "C"},
+        {"id": 7, "answer": "C"},
+        {"id": 8, "answer": "A"},
+        {"id": 9, "answer": "C"},
+        {"id": 10, "answer": "B"},
+        {"id": 11, "answer": "C"},
+        {"id": 12, "answer": "B"},
+        {"id": 13, "answer": "C"},
+        {"id": 14, "answer": "B"},
+        {"id": 15, "answer": "B"},
+        {"id": 16, "answer": "B"},
+        {"id": 17, "answer": "C"},
+        {"id": 18, "answer": "D"},
+        {"id": 19, "answer": "B"},
+        {"id": 20, "answer": "C"},
+        {"id": 21, "answer": "C"},
+        {"id": 22, "answer": "C"},
+        {"id": 23, "answer": "C"},
+        {"id": 24, "answer": "C"},
+        {"id": 25, "answer": "C"}
+      ],
+      "fillInTheBlank": [
+        {"id": 1, "answer": "iterative"},
+        {"id": 2, "answer": "development"},
+        {"id": 3, "answer": "waste"},
+        {"id": 4, "answer": "working"},
+        {"id": 5, "answer": "Emotional Agility"},
+        {"id": 6, "answer": "2001"},
+        {"id": 7, "answer": "five, nine"},
+        {"id": 8, "answer": "Refinement"},
+        {"id": 9, "answer": "hundreds"},
+        {"id": 10, "answer": "gathering"}
+      ],
+      "trueFalse": [
+        {"id": 1, "answer": "False"},
+        {"id": 2, "answer": "True"},
+        {"id": 3, "answer": "False"},
+        {"id": 4, "answer": "False"},
+        {"id": 5, "answer": "True"},
+        {"id": 6, "answer": "False"},
+        {"id": 7, "answer": "False"},
+        {"id": 8, "answer": "True"},
+        {"id": 9, "answer": "False"},
+        {"id": 10, "answer": "False"}
+      ],
+      "shortAnswer": [
+        {
+          "id": 1,
+          "answer": "Object-oriented development requires: (1) an object-oriented technology, (2) an object-oriented analysis and design, and (3) a project plan friendly to an object-oriented approach. It is highly iterative, supporting component-based development, architectural design, learning from patterns, and a model-driven approach."
+        },
+        {
+          "id": 2,
+          "answer": "Three principles of agile software development: - Software is delivered early and continuously, ensuring customer satisfaction through frequent delivery of working software. - Being open to changes in requirements, even late, emphasizes adaptability over rigid plans. - Delivering completed work at regular, preferably short intervals, supports iterative progress and frequent value delivery."
+        },
+        {
+          "id": 3,
+          "answer": "Extreme Programming (XP) is founded on communication, simplicity, feedback, and courage. XP encourages accepting late customer demand changes by testing from initial stages, collecting feedback to refine the system, and enabling easy implementation of requirements."
+        },
+        {
+          "id": 4,
+          "answer": "Scrum of Scrums (SoS) meetings facilitate communication, collaboration, and alignment among multiple Scrum teams working on the same product. They typically involve representatives from each team, often the Scrum Master or a designated member, with varying size and composition."
+        },
+        {
+          "id": 5,
+          "answer": "Critical points about Agile Documentation: - Effective communication is the fundamental issue, not documentation itself, ensuring documents facilitate understanding. - Documentation is as integral to the system as source code, emphasizing its importance. - Investment in documentation is a business decision made by stakeholders, who may need education on its value."
+        }
+      ],
+      "matching": [
+        {"id": 1, "answer": "G"},
+        {"id": 2, "answer": "E"},
+        {"id": 3, "answer": "F"},
+        {"id": 4, "answer": "D"},
+        {"id": 5, "answer": "C"},
+        {"id": 6, "answer": "I"},
+        {"id": 7, "answer": "B"},
+        {"id": 8, "answer": "H"},
+        {"id": 9, "answer": "J"},
+        {"id": 10, "answer": "A"}
+      ]
+    }
+  }
+}

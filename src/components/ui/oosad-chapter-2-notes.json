@@ -1,0 +1,200 @@
+{
+  "chapter": {
+    "title": "Chapter 2: Object Oriented System Analysis and Design (OOSAD) 📚",
+    "sections": [
+      {
+        "title": "Basic Concepts of Object Orientation 🧬",
+        "content": [
+          {
+            "subtitle": "Abstraction 🔍",
+            "description": "Process of extracting essential characteristics, ignoring irrelevant details. Classifies phenomena into concepts, enabling complexity management.",
+            "items": [
+              {"term": "Examples", "definition": "Person in University vs. Police system; Cat vs. Temperature sensor."},
+              {"term": "Types", "definition": "Entity (domain model), Action (operations), Virtual machine (grouped operations), Coincidental (unrelated operations)."}
+            ]
+          },
+          {
+            "subtitle": "Encapsulation 🔒",
+            "description": "Hides state details, associating behavior with data. Compartmentalizes implementation, acting as a black box."
+          },
+          {
+            "subtitle": "Information Hiding 🕵️",
+            "description": "Achieved through encapsulation, separating interface from implementation."
+          },
+          {
+            "subtitle": "Inheritance 🌳",
+            "description": "Allows objects to be built from other objects, supporting hierarchical classification and reusability.",
+            "items": [
+              {"term": "Types", "definition": "Single (one parent), Multiple (multiple parents)."}
+            ]
+          },
+          {
+            "subtitle": "Association 🔗",
+            "description": "Binary relationship between classes, describing activities.",
+            "items": [
+              {"term": "Degree", "definition": "Unary, Binary, Ternary."},
+              {"term": "Cardinality", "definition": "One-to-One, One-to-Many, Many-to-Many."}
+            ]
+          },
+          {
+            "subtitle": "Aggregation 🗂️",
+            "description": "Represents 'has-a' relationship, where a class is composed of other objects."
+          },
+          {
+            "subtitle": "Collaboration 🤝",
+            "description": "Objects cooperate to achieve behavior."
+          },
+          {
+            "subtitle": "Persistence 💾",
+            "description": "Ensures objects are available for future use by saving attributes and relationships to storage."
+          },
+          {
+            "subtitle": "Coupling and Cohesion ⚖️",
+            "description": "Modularity implies cohesive, loosely coupled components."
+          },
+          {
+            "subtitle": "Polymorphism 🦋",
+            "description": "Operation exhibits different behaviors based on data types.",
+            "items": [
+              {"term": "Types", "definition": "Operator overloading, Function overloading."}
+            ]
+          },
+          {
+            "subtitle": "Interfaces 📜",
+            "description": "Collection of methods/attributes defining cohesive behaviors, implemented by classes."
+          },
+          {
+            "subtitle": "Components 🧩",
+            "description": "Modular, extensible units with specified interfaces and dependencies."
+          },
+          {
+            "subtitle": "Patterns 🔄",
+            "description": "Reusable solutions to common problems.",
+            "items": [
+              {"term": "Types", "definition": "Analysis, Design, Process patterns."}
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Object-Oriented System Development Life Cycle (OOSDLC) 🚀",
+        "content": [
+          {
+            "subtitle": "Overview 📋",
+            "description": "Framework for planning and managing software development, dividing work into phases."
+          },
+          {
+            "subtitle": "Phases of SDLC 📊",
+            "description": "Typically five stages, sometimes expanded to seven.",
+            "items": [
+              {"term": "Basic Stages", "definition": "Planning, Analysis, Design, Implementation, Maintenance."},
+              {"term": "Expanded Stages", "definition": "Planning, Feasibility/Requirements Analysis, Design/Prototyping, Development, Testing, Implementation/Integration, Operations/Maintenance."}
+            ]
+          },
+          {
+            "subtitle": "Basic SDLC Methodologies 🔧",
+            "items": [
+              {"term": "Waterfall Model", "definition": "Linear, sequential, inflexible, documentation-heavy."},
+              {"term": "Prototyping", "definition": "Creates working models for requirement verification; Throwaway or Evolutionary."},
+              {"term": "Incremental & Iterative", "definition": "Builds successive versions, refining requirements each iteration."},
+              {"term": "Spiral Model", "definition": "Risk-oriented, combines Waterfall and prototyping, not suited for small projects."},
+              {"term": "Rapid Application Development (RAD)", "definition": "Focuses on faster development using CASE tools and prototypes."},
+              {"term": "Agile Methodologies", "definition": "Adaptive, lightweight, emphasizes people and working software."}
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Unified Process ⚙️",
+        "content": [
+          {
+            "subtitle": "Overview 📝",
+            "description": "Iterative, incremental methodology using UML models, adaptable to specific systems."
+          },
+          {
+            "subtitle": "Principles 🌟",
+            "items": [
+              {"term": "Use Case Driven", "definition": "Development based on use cases."},
+              {"term": "Architecture Centered", "definition": "Iteratively builds system architecture."},
+              {"term": "Iterative and Incremental", "definition": "Divides development into cycles."},
+              {"term": "Risk Oriented", "definition": "Addresses high-risk elements early."}
+            ]
+          },
+          {
+            "subtitle": "Phases 🔄",
+            "items": [
+              {"term": "Inception", "definition": "Determines economic viability, produces initial models and plans."},
+              {"term": "Elaboration", "definition": "Refines requirements, architecture, and plans."},
+              {"term": "Construction", "definition": "Produces first operational beta release."},
+              {"term": "Transition", "definition": "Ensures client requirements are met, finalizes artifacts."}
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Unified Modeling Language (UML) 📊",
+        "content": [
+          {
+            "subtitle": "Definition 📜",
+            "description": "Graphical notation for describing and designing software systems, particularly object-oriented."
+          },
+          {
+            "subtitle": "Purpose 🎯",
+            "items": [
+              {"term": "Visualizing", "definition": "Shows system components and interactions."},
+              {"term": "Specifying", "definition": "Provides precise models for analysis and design."},
+              {"term": "Constructing", "definition": "Compatible with OO languages."},
+              {"term": "Documenting", "definition": "Tracks artifacts throughout development."}
+            ]
+          },
+          {
+            "subtitle": "Building Blocks 🧱",
+            "items": [
+              {"term": "Things", "definition": "Structural (Class, Interface, etc.), Behavioral (Interaction, State Machine), Grouping (Packages), Annotational (Notes)."},
+              {"term": "Relationships", "definition": "Dependency, Association, Generalization."},
+              {"term": "Diagrams", "definition": "Graphical representations of elements."}
+            ]
+          },
+          {
+            "subtitle": "Diagram Types 📈",
+            "items": [
+              {"term": "Structure Diagrams", "definition": "Class, Object, Component, Deployment, Package."},
+              {"term": "Behavior Diagrams", "definition": "Use Case, Sequence, Collaboration, State Chart, Activity."},
+              {"term": "Interaction Diagrams", "definition": "Sequence, Collaboration, Interaction Overview, Timing."}
+            ]
+          },
+          {
+            "subtitle": "Diagram Examples 🖼️",
+            "items": [
+              {
+                "term": "Use Case Diagram",
+                "definition": "Shows system usage with actors, use cases, and relationships (Association, Generalization, Extend, Include)."
+              },
+              {
+                "term": "Activity Diagram",
+                "definition": "Depicts step-by-step workflows, showing control flow with actions and decisions."
+              },
+              {
+                "term": "Sequence Diagram",
+                "definition": "Models control flow by time, showing object interactions and messages."
+              },
+              {
+                "term": "Class Diagram",
+                "definition": "Shows classes, attributes, methods, and relationships (Association, Aggregation, Generalization)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "A Modern Look at Modeling 🖥️",
+        "content": [
+          {
+            "subtitle": "Overview 🌐",
+            "description": "UML supports modeling for system analysis, design, and deployment, providing standardized notation for visualizing and documenting software systems."
+          }
+        ]
+      }
+    ]
+  }
+}

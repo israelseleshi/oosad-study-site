@@ -1,0 +1,970 @@
+{
+  "exam": {
+    "title": "Object-Oriented System Analysis and Design (OOSAD)",
+    "instructions": "This exam covers object-oriented programming principles, Software Development Life Cycle (SDLC) methodologies, the Unified Process, and the Unified Modeling Language (UML). Answer all questions carefully. Answers are provided at the end.",
+    "sections": [
+      {
+        "title": "Multiple Choice Questions",
+        "count": 25,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Which list correctly identifies the essential elements of the Object Model, as opposed to useful but non-essential elements?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Abstraction, Encapsulation, Inheritance, Polymorphism"
+              },
+              {
+                "letter": "B",
+                "text": "Abstraction, Encapsulation, Modularity, Hierarchy"
+              },
+              {
+                "letter": "C",
+                "text": "Abstraction, Modularity, Typing, Concurrency"
+              },
+              {
+                "letter": "D",
+                "text": "Encapsulation, Modularity, Persistence, Concurrency"
+              },
+              {
+                "letter": "E",
+                "text": "Hierarchy, Typing, Concurrency, Persistence"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "What is the fundamental difference in focus between Abstraction and Encapsulation in object-oriented programming?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Abstraction hides implementation details, while encapsulation focuses on essential characteristics."
+              },
+              {
+                "letter": "B",
+                "text": "Abstraction classifies phenomena into concepts, while encapsulation focuses on data manipulation procedures."
+              },
+              {
+                "letter": "C",
+                "text": "Abstraction extracts essential characteristics distinguishing an object, whereas encapsulation focuses on the implementation that gives rise to the object's observable behavior."
+              },
+              {
+                "letter": "D",
+                "text": "Abstraction deals with observable behavior, whereas encapsulation modularizes system features into classes and methods."
+              },
+              {
+                "letter": "E",
+                "text": "Abstraction represents abstract actors, while encapsulation packages unrelated operations."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "For a project with significant architectural risks and a government sponsor focused on risk management, which SDLC model is best suited due to its risk management focus, despite its complexity?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Waterfall Model"
+              },
+              {
+                "letter": "B",
+                "text": "Rapid Application Development (RAD)"
+              },
+              {
+                "letter": "C",
+                "text": "Prototyping Model"
+              },
+              {
+                "letter": "D",
+                "text": "Spiral Model"
+              },
+              {
+                "letter": "E",
+                "text": "Incremental & Iterative Approach"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "How does Aggregation differ from Association, and what type of relationship does Aggregation represent?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Aggregation is a relationship where one class uses another, represented as a binary relationship."
+              },
+              {
+                "letter": "B",
+                "text": "Aggregation is a collection of things, represented by a 'has a' relationship, indicating a whole-to-part structure."
+              },
+              {
+                "letter": "C",
+                "text": "Aggregation describes a set of links, representing a connection among objects."
+              },
+              {
+                "letter": "D",
+                "text": "Aggregation denotes cardinality ratios in a binary association."
+              },
+              {
+                "letter": "E",
+                "text": "Aggregation is a semantic relationship where a change in one element affects another."
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Which example best illustrates operator overloading within polymorphism?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "A function name handling different numbers and types of arguments, like a word with multiple meanings."
+              },
+              {
+                "letter": "B",
+                "text": "A Person superclass with subclasses (Doctor, Mechanic, Cook) where the 'Work' message varies by subclass."
+              },
+              {
+                "letter": "C",
+                "text": "The addition operation producing a sum for numbers but concatenating strings into a third string."
+              },
+              {
+                "letter": "D",
+                "text": "Objects with different internal structures sharing the same external interface for uniform access."
+              },
+              {
+                "letter": "E",
+                "text": "Objects taking multiple forms, derived from a Greek term meaning multiple forms."
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "In the Incremental & Iterative Approach, what is the primary function of the Control List?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "A static list of required features for the first release."
+              },
+              {
+                "letter": "B",
+                "text": "A dynamic list specifying design changes and new requirements based on user interaction and analysis."
+              },
+              {
+                "letter": "C",
+                "text": "A detailed list of steps in a use case’s normal flow with discrete sub-steps."
+              },
+              {
+                "letter": "D",
+                "text": "A prioritized list of use cases based on risk, addressing critical ones first."
+              },
+              {
+                "letter": "E",
+                "text": "A list of defects from the previous version to be corrected before adding new requirements."
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "Which principles characterize the foundation of the Unified Process?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Waterfall-based, Documentation-centric, Risk-averse, User-driven"
+              },
+              {
+                "letter": "B",
+                "text": "Agile-driven, Implementation-focused, Architecture-independent, Contract-negotiation"
+              },
+              {
+                "letter": "C",
+                "text": "Use case driven, Architecture centered, Iterative and incremental, Risk oriented"
+              },
+              {
+                "letter": "D",
+                "text": "Plan-driven, Process-focused, Technology-dependent, Customer-independent"
+              },
+              {
+                "letter": "E",
+                "text": "Model-free, Code-centric, Sequential-phase, Risk-ignoring"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "What are the three primary building blocks of UML?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Classes, Objects, Relationships"
+              },
+              {
+                "letter": "B",
+                "text": "Structural Things, Behavioral Things, Grouping Things"
+              },
+              {
+                "letter": "C",
+                "text": "Things, Relationships, Diagrams"
+              },
+              {
+                "letter": "D",
+                "text": "Use Cases, Actors, Scenarios"
+              },
+              {
+                "letter": "E",
+                "text": "Specifications, Adornments, Common Divisions"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "What are the four required components of a UML Use Case?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Actor, System, Goal, Interface"
+              },
+              {
+                "letter": "B",
+                "text": "Stakeholders, System, Goal, Scenario"
+              },
+              {
+                "letter": "C",
+                "text": "Actor, System, Scenario, Relationships"
+              },
+              {
+                "letter": "D",
+                "text": "Actor, Goal, Stakeholders, Scenario"
+              },
+              {
+                "letter": "E",
+                "text": "Primary Actor, System, Normal Flow, Alternate Flow"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Which UML diagram type focuses on static aspects of a software system, such as classes, objects, components, and deployment nodes?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Behavior Diagram"
+              },
+              {
+                "letter": "B",
+                "text": "Interaction Diagram"
+              },
+              {
+                "letter": "C",
+                "text": "Structure Diagram"
+              },
+              {
+                "letter": "D",
+                "text": "Dynamic Diagram"
+              },
+              {
+                "letter": "E",
+                "text": "Functional Diagram"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "What do UML Sequence Diagrams emphasize, and how is this represented visually?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Structural organization of objects and messages, shown by connections between objects."
+              },
+              {
+                "letter": "B",
+                "text": "Flow of control between activities, shown by nodes and directed edges."
+              },
+              {
+                "letter": "C",
+                "text": "Temporal ordering of messages between objects, shown along a timeline from top to bottom."
+              },
+              {
+                "letter": "D",
+                "text": "Event-driven state changes, shown by states and transitions."
+              },
+              {
+                "letter": "E",
+                "text": "Logical groupings of elements and relationships, shown by nested rectangles."
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "Which type of inheritance involves a class sharing structure and/or behavior from more than one other class?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Single inheritance"
+              },
+              {
+                "letter": "B",
+                "text": "Multiple inheritance"
+              },
+              {
+                "letter": "C",
+                "text": "Hierarchical inheritance"
+              },
+              {
+                "letter": "D",
+                "text": "Multilevel inheritance"
+              },
+              {
+                "letter": "E",
+                "text": "Hybrid inheritance"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Which concept refers to an object’s property of transcending time and/or space, often requiring saving attributes to permanent storage?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Collaboration"
+              },
+              {
+                "letter": "B",
+                "text": "Typing"
+              },
+              {
+                "letter": "C",
+                "text": "Concurrency"
+              },
+              {
+                "letter": "D",
+                "text": "Persistence"
+              },
+              {
+                "letter": "E",
+                "text": "Modularity"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "Which is not a shortcoming of the Waterfall Model?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Inflexibility"
+              },
+              {
+                "letter": "B",
+                "text": "Overreliance on Documentation"
+              },
+              {
+                "letter": "C",
+                "text": "Insufficient Analysis"
+              },
+              {
+                "letter": "D",
+                "text": "Detachment from Technology"
+              },
+              {
+                "letter": "E",
+                "text": "Detachment from the Marketplace"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "In an Activity Diagram, what does 'atomic' mean for an Action?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "An action is complex and decomposable into smaller steps."
+              },
+              {
+                "letter": "B",
+                "text": "An action is conditional and executes only if an event occurs."
+              },
+              {
+                "letter": "C",
+                "text": "An action is un-interruptible, running to completion without interruption."
+              },
+              {
+                "letter": "D",
+                "text": "An action requires a specific time period to complete."
+              },
+              {
+                "letter": "E",
+                "text": "An action operates only on objects visible to the triggered object."
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "What are the primary goals and deliverables of the Elaboration Phase in the Unified Process?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Determine economic viability; produce initial domain model and risk list."
+              },
+              {
+                "letter": "B",
+                "text": "Refine requirements and architecture, monitor risks, refine business case, produce project management plan."
+              },
+              {
+                "letter": "C",
+                "text": "Produce first operational-quality (beta) release and all artifacts."
+              },
+              {
+                "letter": "D",
+                "text": "Ensure client requirements are met; produce final artifacts and manuals."
+              },
+              {
+                "letter": "E",
+                "text": "Build base software version for user feedback."
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "Which UML diagram is the most indispensable and serves as the 'definitive blueprints' for developers?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Use Case Diagram"
+              },
+              {
+                "letter": "B",
+                "text": "Activity Diagram"
+              },
+              {
+                "letter": "C",
+                "text": "Sequence Diagram"
+              },
+              {
+                "letter": "D",
+                "text": "Class Diagram"
+              },
+              {
+                "letter": "E",
+                "text": "Deployment Diagram"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "What is an Association in UML, and what does it represent?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "A semantic relationship where a change in one element affects another."
+              },
+              {
+                "letter": "B",
+                "text": "A specialization/generalization relationship where a child substitutes for a parent."
+              },
+              {
+                "letter": "C",
+                "text": "A collection of things, representing a whole-to-part relationship."
+              },
+              {
+                "letter": "D",
+                "text": "A structural relationship describing a set of links, representing connections among objects."
+              },
+              {
+                "letter": "E",
+                "text": "A relationship where one class explicitly uses another."
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "What is the distinction between a Link and an Association in UML?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "A Link is a conceptual connection, while an Association is physical."
+              },
+              {
+                "letter": "B",
+                "text": "A Link represents a group of associations, while an Association is a single connection."
+              },
+              {
+                "letter": "C",
+                "text": "A Link is an instance of an association, representing a connection for collaboration."
+              },
+              {
+                "letter": "D",
+                "text": "A Link depicts relationships between objects of multiple classes, while an Association involves specific objects."
+              },
+              {
+                "letter": "E",
+                "text": "A Link is a binary relationship, while an Association can be ternary."
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "In a UML Use Case, what does the Scenario represent, and what are the typical categories of its steps?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "The goal and actors, with steps categorized as simple or compound."
+              },
+              {
+                "letter": "B",
+                "text": "System services to actors, with steps as logical, physical, or conceptual."
+              },
+              {
+                "letter": "C",
+                "text": "Ordered sequence of interactions to achieve a goal, with steps as Normal Flow, Alternate Flow, Sub-Flows, Exceptions."
+              },
+              {
+                "letter": "D",
+                "text": "Risks associated with the use case, with steps as high, medium, or low risk."
+              },
+              {
+                "letter": "E",
+                "text": "Stakeholders affected by the outcome, with steps by stakeholder type."
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "text": "What are the four purposes for which UML serves as a language?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Analysing, Designing, Implementing, Testing artifacts."
+              },
+              {
+                "letter": "B",
+                "text": "Visualizing, Specifying, Constructing, Documenting artifacts."
+              },
+              {
+                "letter": "C",
+                "text": "Planning, Analysing, Designing, Implementing projects."
+              },
+              {
+                "letter": "D",
+                "text": "Modeling, Programming, Deploying, Maintaining systems."
+              },
+              {
+                "letter": "E",
+                "text": "Diagramming, Interacting, Structuring, Behaving components."
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "What are the two types of prototypes in the Prototyping Model, and how do they differ?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Functional and Non-functional; functional becomes the final system, non-functional is discarded."
+              },
+              {
+                "letter": "B",
+                "text": "Throwaway and Evolutionary; throwaway is discarded, evolutionary is developed into the system."
+              },
+              {
+                "letter": "C",
+                "text": "Vertical and Horizontal; vertical implements a slice, horizontal implements a layer."
+              },
+              {
+                "letter": "D",
+                "text": "Interactive and Static; interactive involves feedback, static is a mock-up."
+              },
+              {
+                "letter": "E",
+                "text": "Alpha and Beta; alpha is internal, beta is external."
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "How is Generalization described in class relationships?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Creating a subclass by defining specific elements."
+              },
+              {
+                "letter": "B",
+                "text": "Combining common characteristics of subclasses to form a generalized superclass."
+              },
+              {
+                "letter": "C",
+                "text": "Inheriting properties from multiple parent classes."
+              },
+              {
+                "letter": "D",
+                "text": "Representing a 'has a' or 'part-of' relationship."
+              },
+              {
+                "letter": "E",
+                "text": "Defining unrelated operations."
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "What is the primary aim of the Construction Phase in the Unified Process, and what is a key deliverable?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Determine economic viability; initial risk list."
+              },
+              {
+                "letter": "B",
+                "text": "Refine requirements and architecture; completed requirements artifacts."
+              },
+              {
+                "letter": "C",
+                "text": "Ensure client requirements are met; completed manuals."
+              },
+              {
+                "letter": "D",
+                "text": "Produce first operational-quality (beta) release; initial user manual and other manuals."
+              },
+              {
+                "letter": "E",
+                "text": "Identify and resolve high-risk CONVERTED TO JSON FORMAT elements; elaboration phase plan."
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "What is Typing in the Object Model, and what does it enforce?",
+            "options": [
+              {
+                "letter": "A",
+                "text": "Distinguishing active from inactive objects."
+              },
+              {
+                "letter": "B",
+                "text": "Grouping operations for superior control."
+              },
+              {
+                "letter": "C",
+                "text": "Enforcing an object’s class, restricting type interchange."
+              },
+              {
+                "letter": "D",
+                "text": "Abstracting common elements into a superclass."
+              },
+              {
+                "letter": "E",
+                "text": "Hiding state details and associating behavior with data types."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Fill-in-the-Blank Questions",
+        "count": 10,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Compartmentalizing an abstraction’s structure and behavior, separating its interface from implementation, is known as __________."
+          },
+          {
+            "id": 2,
+            "text": "In object-oriented programming, a __________ is a template defining an object’s data and functionality."
+          },
+          {
+            "id": 3,
+            "text": "The property allowing objects to be built from other objects, leveraging commonality, is called __________."
+          },
+          {
+            "id": 4,
+            "text": "The __________ Model is a linear life cycle methodology requiring completion of one phase before the next."
+          },
+          {
+            "id": 5,
+            "text": "The Unified Process is Iterative and Incremental, making the system more __________ with each iteration."
+          },
+          {
+            "id": 6,
+            "text": "The Unified Modeling Language (UML) is a family of graphical __________ for designing software systems."
+          },
+          {
+            "id": 7,
+            "text": "UML __________ Diagrams focus on dynamic aspects, such as Use-case and Activity diagrams."
+          },
+          {
+            "id": 8,
+            "text": "In a UML Sequence Diagram, objects are on the __________–axis, with messages on the __________–axis."
+          },
+          {
+            "id": 9,
+            "text": "A UML Use Case yields an observable result of value to a particular __________."
+          },
+          {
+            "id": 10,
+            "text": "In a UML Use Case diagram, a <<include>> arrow indicates one use case __________ another."
+          }
+        ]
+      },
+      {
+        "title": "True/False Questions",
+        "count": 10,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Modularity is a 'Minor Element' in the Object Model.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 2,
+            "text": "A Method in OOP is an executable procedure operating on class data attributes.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 3,
+            "text": "The Prototyping Model is used when customers are certain of their requirements.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 4,
+            "text": "In the Incremental & Iterative Approach, iterations undergo a full life cycle but are long compared to the Waterfall Model.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 5,
+            "text": "The Spiral Model ignores specifications, milestones, reviews, and scheduling.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 6,
+            "text": "Rapid Application Development (RAD) is solely a formal methodology with fixed characteristics.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 7,
+            "text": "UML is language independent.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 8,
+            "text": "In a UML Use Case Diagram, an actor is always a specific person or group.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 9,
+            "text": "UML Activity Diagrams visualize the internal flow of a use case’s activity.",
+            "options": ["True", "False"]
+          },
+          {
+            "id": 10,
+            "text": "A UML Object Diagram illustrates a specific instance of a Class Diagram.",
+            "options": ["True", "False"]
+          }
+        ]
+      },
+      {
+        "title": "Short Answer Questions",
+        "count": 5,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Explain Polymorphism, including its Greek origin, manifestation in operations, and the difference between operator and function overloading. Describe its role in enabling shared external interfaces and its use in inheritance."
+          },
+          {
+            "id": 2,
+            "text": "Describe the four principles of the Unified Process and explain what each entails in software development."
+          },
+          {
+            "id": 3,
+            "text": "Discuss the differences between Association and Aggregation, including the nature of each relationship, how Aggregation is described, and an example of Aggregation."
+          },
+          {
+            "id": 4,
+            "text": "Detail the four categories of steps in a Use Case Scenario, what each represents, and whether any category is mandatory."
+          },
+          {
+            "id": 5,
+            "text": "Compare the focus and representation of UML Activity Diagrams and UML Sequence Diagrams, including their purposes, emphasized aspects, and visual depictions."
+          }
+        ]
+      },
+      {
+        "title": "Matching Questions",
+        "count": 10,
+        "instructions": "Match each term or concept from List A with its most fitting description or characteristic from List B.",
+        "lists": {
+          "listA": [
+            {
+              "id": 1,
+              "text": "Abstraction"
+            },
+            {
+              "id": 2,
+              "text": "Encapsulation"
+            },
+            {
+              "id": 3,
+              "text": "Inheritance"
+            },
+            {
+              "id": 4,
+              "text": "Attribute"
+            },
+            {
+              "id": 5,
+              "text": "Method"
+            },
+            {
+              "id": 6,
+              "text": "Actor (UML Use Case)"
+            },
+            {
+              "id": 7,
+              "text": "Modularity"
+            },
+            {
+              "id": 8,
+              "text": "Persistence"
+            },
+            {
+              "id": 9,
+              "text": "Interface"
+            },
+            {
+              "id": 10,
+              "text": "Component"
+            }
+          ],
+          "listB": [
+            {
+              "id": "A",
+              "text": "A modular unit with independent deployment and specified interface(s)."
+            },
+            {
+              "id": "B",
+              "text": "An executable procedure in a class, invoked via message passing."
+            },
+            {
+              "id": "C",
+              "text": "Reducing something to essential characteristics distinguishing an object."
+            },
+            {
+              "id": "D",
+              "text": "An object’s property of transcending time and/or space."
+            },
+            {
+              "id": "E",
+              "text": "Compartmentalizing an abstraction, hiding inner workings."
+            },
+            {
+              "id": "F",
+              "text": "A system decomposed into cohesive, loosely coupled modules."
+            },
+            {
+              "id": "G",
+              "text": "A data element in a record or variable."
+            },
+            {
+              "id": "H",
+              "text": "Building objects from other objects, enabling property acquisition."
+            },
+            {
+              "id": "I",
+              "text": "A role interacting with the system."
+            },
+            {
+              "id": "J",
+              "text": "A collection of methods and attributes defining behaviors."
+            }
+          ]
+        }
+      }
+    ],
+    "answers": {
+      "multipleChoice": [
+        {"id": 1, "answer": "B"},
+        {"id": 2, "answer": "C"},
+        {"id": 3, "answer": "D"},
+        {"id": 4, "answer": "B"},
+        {"id": 5, "answer": "C"},
+        {"id": 6, "answer": "B"},
+        {"id": 7, "answer": "C"},
+        {"id": 8, "answer": "C"},
+        {"id": 9, "answer": "B"},
+        {"id": 10, "answer": "C"},
+        {"id": 11, "answer": "C"},
+        {"id": 12, "answer": "B"},
+        {"id": 13, "answer": "D"},
+        {"id": 14, "answer": "C"},
+        {"id": 15, "answer": "C"},
+        {"id": 16, "answer": "B"},
+        {"id": 17, "answer": "D"},
+        {"id": 18, "answer": "D"},
+        {"id": 19, "answer": "C"},
+        {"id": 20, "answer": "C"},
+        {"id": 21, "answer": "B"},
+        {"id": 22, "answer": "B"},
+        {"id": 23, "answer": "B"},
+        {"id": 24, "answer": "D"},
+        {"id": 25, "answer": "C"}
+      ],
+      "fillInTheBlank": [
+        {"id": 1, "answer": "Encapsulation"},
+        {"id": 2, "answer": "Class"},
+        {"id": 3, "answer": "Inheritance"},
+        {"id": 4, "answer": "Waterfall"},
+        {"id": 5, "answer": "complete"},
+        {"id": 6, "answer": "notations"},
+        {"id": 7, "answer": "Behavioral"},
+        {"id": 8, "answer": "x, y"},
+        {"id": 9, "answer": "actor"},
+        {"id": 10, "answer": "uses"}
+      ],
+      "trueFalse": [
+        {"id": 1, "answer": "False"},
+        {"id": 2, "answer": "True"},
+        {"id": 3, "answer": "False"},
+        {"id": 4, "answer": "False"},
+        {"id": 5, "answer": "True"},
+        {"id": 6, "answer": "False"},
+        {"id": 7, "answer": "True"},
+        {"id": 8, "answer": "False"},
+        {"id": 9, "answer": "True"},
+        {"id": 10, "answer": "True"}
+      ],
+      "shortAnswer": [
+        {
+          "id": 1,
+          "answer": "Polymorphism, from Greek 'many forms,' allows objects to be treated uniformly despite different behaviors. Operator overloading redefines operators (e.g., '+' for numbers vs. strings), while function overloading uses the same function name with different parameters. It enables shared external interfaces via common methods and supports inheritance by allowing subclasses to override parent behaviors."
+        },
+        {
+          "id": 2,
+          "answer": "Unified Process principles: (1) Use case driven: Development is guided by use cases defining system functionality. (2) Architecture centered: Focus on a robust system structure early. (3) Iterative and incremental: Build in cycles, refining the system. (4) Risk oriented: Prioritize addressing high-risk elements to ensure project success."
+        },
+        {
+          "id": 3,
+          "answer": "Association is a structural UML relationship representing connections among objects (e.g., 'Student enrolls in Course'). Aggregation is a 'has a' whole-to-part relationship, a special association where parts can exist independently (e.g., 'Car has a Wheel'). Aggregation implies a weaker dependency compared to Association."
+        },
+        {
+          "id": 4,
+          "answer": "Use Case Scenario steps: (1) Normal Flow: Main success path (mandatory). (2) Alternate Flow: Variations from normal path. (3) Sub-Flows: Reusable sub-steps. (4) Exceptions: Error conditions. Only Normal Flow is mandatory, defining the primary interaction sequence."
+        },
+        {
+          "id": 5,
+          "answer": "Activity Diagrams focus on workflow, showing dynamic process flows with nodes and edges (e.g., use case steps). Sequence Diagrams emphasize interaction timing, depicting messages between objects along a vertical timeline. Activity Diagrams model processes; Sequence Diagrams model object interactions."
+        }
+      ],
+      "matching": [
+        {"id": 1, "answer": "C"},
+        {"id": 2, "answer": "E"},
+        {"id": 3, "answer": "H"},
+        {"id": 4, "answer": "G"},
+        {"id": 5, "answer": "B"},
+        {"id": 6, "answer": "I"},
+        {"id": 7, "answer": "F"},
+        {"id": 8, "answer": "D"},
+        {"id": 9, "answer": "J"},
+        {"id": 10, "answer": "A"}
+      ]
+    }
+  }
+}
